@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="overlay-menu-mobile" onclick="closeMenuMobile()"></div>
+    <header class="header">
+        <div class="header_logo">
+            <a href="#"><img src="photos/logo.png" alt=""></a>
+        </div>
+        <nav class="header_nav">
+            <div class="header_nav_close" onclick="closeMenuMobile()">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </div>
+            <ul class="header_nav_menu">
+                <li class="header_nav_menu_link" style="border: none;">
+                    <a href="#">Accueil</a>
+                </li>
+                <li class="header_nav_menu_link">
+                    <a href="#">Articles</a>
+                </li>
+                <li class="header_nav_menu_link">
+                    <a href="#">A propos</a>
+                </li>
+                <li class="header_nav_menu_link">
+                    <a href="#">Connexion</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header_burger" onclick="openMenuMobile()">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+        </div>
+    </header>
+    <div class="container_img">
+        <img id="imgfond" src="photos/fond.jpg" alt="">
+        <img id="imgfondresponsive" src="photos/fondresponsive.jpg" alt="">
+        <div class="texte">
+            <h1>Portfolio</h1>
+            <img src="photos/logo2.png" alt="">
+            <p>Un Portfolio regroupant tous les projets personels et proffessionels</p>
+        </div>
+    </div>
+
+
+
+    <div class="specialite">
+        <strong>
+            <h2>Les 4 spécialités</h2>
+        </strong>
+    </div>
+    <section id="accueil">
+        <div class="container">
+            <a href="#" id="dev" class="itemholder">
+                <figure class="imgholder">
+                    <img class="sectionimg" src="photos/comm.png" alt="">
+                </figure>
+                <div class="descholder">
+                    <h2 class="sectiontitle">Communication web</h2>
+                    <p class="sectiondesc">La communication web est l'échange d'informations et de messages sur
+                        Internet, via divers moyens tels que les sites web, les réseaux sociaux et les applications de
+                        messagerie instantanée.</p>
+                </div>
+            </a>
+
+            <a href="#" id="dev" class="itemholder">
+                <figure class="imgholder">
+                    <img class="sectionimg" src="photos/market.jpg" alt="">
+                </figure>
+                <div class="descholder">
+                    <h2 class="sectiontitle">Marcketing web</h2>
+                    <p class="sectiondesc">Le marketing web regroupe les techniques et stratégies pour promouvoir une
+                        entreprise, un produit ou un service sur Internet. Il comprend des activités telles que la
+                        publicité en ligne, le référencement naturel, les réseaux sociaux, l'email marketing et le
+                        marketing de contenu.</p>
+                </div>
+            </a>
+
+            <a href="#" id="dev" class="itemholder">
+                <figure class="imgholder">
+                    <img class="sectionimg" src="photos/dev.jpg" alt="">
+                </figure>
+                <div class="descholder">
+                    <h2 class="sectiontitle">Developpement web</h2>
+                    <p class="sectiondesc">Le développement web est le processus de création et de maintenance de sites
+                        web. Cela implique la conception graphique, le développement de code, l'intégration de contenu
+                        et de fonctionnalités, ainsi que la gestion des serveurs web et des bases de données.</p>
+                </div>
+            </a>
+
+            <a href="#" id="dev" class="itemholder">
+                <figure class="imgholder">
+                    <img class="sectionimg" src="photos/design.png" alt="">
+                </figure>
+                <div class="descholder">
+                    <h2 class="sectiontitle">Design web</h2>
+                    <p class="sectiondesc">Le design web est la conception visuelle et esthétique d'un site web,
+                        incluant l'utilisation de couleurs, de typographies, de graphismes et d'éléments interactifs
+                        pour créer une expérience utilisateur agréable et intuitive.</p>
+                </div>
+            </a>
+
+        </div>
+    </Section>
+
+
+    <div class="specialite">
+        <strong>
+            <h2>A propos</h2>
+        </strong>
+    </div>
+    <section id="propos">
+        <div class="img_propos">
+            <img class="img_propos" src="photos/propos.png" alt="">
+        </div>
+        <p>La communication web est l'échange d'informations et de messages sur Internet, le marketing web regroupe les
+            techniques de promotion d'une entreprise, d'un produit ou d'un service sur Internet, le développement web
+            est le processus de création et de maintenance de sites web, et le design web est la conception visuelle et
+            esthétique d'un site web. Ces quatre éléments sont étroitement liés et sont tous essentiels pour la présence
+            en ligne réussie d'une entreprise ou organisation. Les outils et les stratégies utilisés pour chacun de ces
+            éléments continuent d'évoluer et de se développer, et sont cruciaux pour la réussite sur le marché numérique
+            d'aujourd'hui.</p>
+
+    </section>
+
+    <footer>
+        <div>
+            <a href="#"><img src="photos/logo.png" alt=""></a>
+        </div>
+        <div class="mentions">
+            <U><h3>Mentions</h3></U>
+            <ul class="list">
+                <a href="#">
+                    <li>
+                        Mentions légales
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        Politique de confidentialité
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        Cookies
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <div class="reseaux">
+            <u><h3>Réseaux</h3></u>
+            <ul class="list">
+                <a href="#">
+                    <li>
+                        Linkedin
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        Discord
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        Instagram
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        function openMenuMobile() {
+            document.querySelector('.header_nav').classList.add('open');
+            document.querySelector('.overlay-menu-mobile').classList.add('open');
+        }
+
+        function closeMenuMobile() {
+            document.querySelector('.header_nav').classList.remove('open');
+            document.querySelector('.overlay-menu-mobile').classList.remove('open');
+        }
+    </script>
+</body>
+
+</html>
